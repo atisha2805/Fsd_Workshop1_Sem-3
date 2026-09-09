@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcculator</title>
+</head>
+<body>
+    <script>
+        let n1=parseInt(prompt("Enter first number"));
+        let n2=parseInt(prompt("Enter second number"));
+        let op=prompt("Enter operator");
+        if(op=="+"){
+            alert(n1+n2);
+        }
+        else if(op=="-"){
+            alert(n1-n2);
+        }
+        else if(op=="*"){
+            alert(n1*n2);
+        }
+        else if(op=="/"){
+            alert(n1/n2);
+        }
+        else{
+            alert("Invalid operator");
+        }
+        let result=n1+op+n2;
+        document.write("The result of "+n1+op+n2+" is "+eval(result));
+    </script>
+</body>
+</html>
