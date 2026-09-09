@@ -23,4 +23,3 @@ if(fs.existsSync('Sec-A_Student.txt')) {
 }else {
     console.log('File not found,need to create this file');
 }
-
