@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Events</title>
+
+</head>
+<body>
+    <button onclick="openWindow()">Open New Window</button>
+</body>
+<script>
+    function openWindow(){
+        window.open("https://www.google.com","_blank", "width=500px , height=500px");
+        //window.open(" "," ", "width=500px , height=500px");
+        //window.open("https://www.google.com","_parent","width=500px,height=500px")  //parent has no effect of width and height.
+    }
+
+    //Window.close()
+    //move:- 1>Move to and 2>Move by   
+    //do practice
+</script>
+</html>
