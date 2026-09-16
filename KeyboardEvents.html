@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Events</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="form">
+        <h1 id="h1">Keyboard Events</h1>
+        
+        <!--<label for="input">onkeydown</label>
+        <input type="text" id="input" onkeydown="alert(this.value)">
+        
+        <label for="input1">onkeyup</label>
+        <input type="text" id="input1" onkeyup="alert(this.value)">
+        
+        <label for="input2">onkeypress</label>
+        <input type="text" id="input2" onkeypress="alert(this.value)">-->
+        
+        
+        <label for="input">onkeydown</label>
+        <input type="text" id="input" onkeydown="document.getElementById('form').style.background=this.value">
+        
+        <label for="input1">onkeyup</label>
+        <input type="text" id="input1" onkeyup="document.getElementById('form').style.background=this.value">
+        
+        <label for="input2">onkeypress</label>
+        <input type="text" id="input2" onkeypress="document.getElementById('form').style.background=this.value">
+
+
+        
+    </div>
+    
+</body>
+</html>
